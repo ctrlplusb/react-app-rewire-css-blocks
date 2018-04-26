@@ -33,7 +33,10 @@ Within your `react-app-rewire` config:
 const cssBlocksPlugin = require('react-app-rewire-css-blocks')
 
 const pluginConfig = {
-  appIndexJs: 'src/index.js'
+  appIndexJs: 'src/index.js',
+  webpackOptions: {
+    outputCssFile: 'styles.css'
+  }
 } // See docs below for full details
 
 // Adds support for modernizr
