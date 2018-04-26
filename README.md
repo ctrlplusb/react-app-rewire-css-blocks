@@ -1,6 +1,6 @@
 # react-app-rewire-css-blocks
 
-Adds support for the awesome [CSS Blocks](http://css-blocks.com/) to your [`react-app-rewired`](https://github.com/timarney/react-app-rewired) config.
+Adds support for [CSS Blocks](http://css-blocks.com/) to your [`react-app-rewired`](https://github.com/timarney/react-app-rewired) config.
 
 [![npm](https://img.shields.io/npm/v/react-app-rewire-css-blocks.svg?style=flat-square)](http://npm.im/react-app-rewire-css-blocks)
 [![MIT License](https://img.shields.io/npm/l/react-app-rewire-css-blocks.svg?style=flat-square)](http://opensource.org/licenses/MIT)
@@ -60,19 +60,19 @@ The configuration object that you provide to the plugin allows the following opt
 
    As a quick reference it supports the following options:
 
-    - __baseDir__: (_string_)
+    - __baseDir__ (_optional_, _string_, Default: process.cwd())
 
-    - __types__ (_string_)
+    - __types__ (_optional_, _string_, Default: "none")
 
       "typescript" | "flow" | "none"
 
-    - __aliases__: (_optional_, _Object_);
+    - __aliases__ (_optional_, _Object_)
 
-    - __compilationOptions__: ResolvedConfiguration;
+    - __compilationOptions__ (_optional_, _ResolvedConfiguration_)
 
-    - __parserOptions__: BabylonOptions;
+    - __parserOptions__ (_optional_, _BabylonOptions_)
 
- - __webpackOptions__ (_optional_, _object_)
+ - __webpackOptions__ (_optional_, _Object_)
 
    The configuration options for the CSS Blocks webpack plugin. For full details see [here](http://css-blocks.com/api/modules/_css_blocks_webpack.html).
 

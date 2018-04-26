@@ -1,7 +1,7 @@
 {
   "name": "react-app-rewire-css-blocks",
-  "version": "0.2.1",
-  "description": "Adds css-blocks to your react-app-rewired config.",
+  "version": "0.1.0",
+  "description": "Adds support for CSS Blocks to your react-app-rewired config.",
   "license": "MIT",
   "main": "dist/react-app-rewire-css-blocks.js",
   "files": [
